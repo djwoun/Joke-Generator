@@ -1,0 +1,57 @@
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-flow: row wrap;
+}
+
+.flex > div {
+  background-color: #28253e;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.body {
+  background-color: #13102b;
+}
+
+#generate {
+  background-color: #e9a04d;
+  border-radius: 50% 20% / 10% 40%;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+
+  transition: transform 2s;
+}
+
+#button:hover {
+  transform: scale(1.5);
+}
+
+.writing {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#image > img {
+  border-radius: 30px;
+}
+
+.searchbuttons {
+  border-radius: 30px;
+}
